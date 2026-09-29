@@ -10,7 +10,7 @@ const char* password = "5135Innova";
 
 const char* version_url = "https://raw.githubusercontent.com/MabhiMahesh/new_repo/master/version.txt";
 const char* firmware_url = "https://raw.githubusercontent.com/MabhiMahesh/new_repo/master/build/esp32.esp32.esp32/test.ino.bin";
-const int CURRENT_VERSION = 5;
+const int CURRENT_VERSION = 6;
 
 void checkOTA() {
   WiFiClientSecure client;
@@ -119,5 +119,5 @@ void loop() {
   delay(5000);
 
   digitalWrite(LED_BUILTIN, LOW);
-  delay(100);
+  delay(1000);
 }
