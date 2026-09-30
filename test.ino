@@ -8,9 +8,9 @@
 const char* ssid = "Technotouch";
 const char* password = "5135Innova";
 
-const char* version_url = "https://raw.githubusercontent.com/MabhiMahesh/new_repo/master/version.txt";
-const char* firmware_url = "https://raw.githubusercontent.com/MabhiMahesh/new_repo/master/build/esp32.esp32.esp32/test.ino.bin";
-const int CURRENT_VERSION = 6;
+const char* version_url = "https://raw.githubusercontent.com/Mahesh-rss/new_repo/master/version.txt";
+const char* firmware_url = "https://raw.githubusercontent.com/Mahesh-rss/new_repo/master/build/esp32.esp32.esp32/test.ino.bin";
+const int CURRENT_VERSION = 7;
 
 void checkOTA() {
   WiFiClientSecure client;
@@ -116,7 +116,7 @@ void setup() {
 
 void loop() {
   digitalWrite(LED_BUILTIN, HIGH);
-  delay(5000);
+  delay(3000);
 
   digitalWrite(LED_BUILTIN, LOW);
   delay(1000);
